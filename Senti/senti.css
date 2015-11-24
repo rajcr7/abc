@@ -1,0 +1,22 @@
+.chart {
+
+}
+
+.main text {
+    font: 10px sans-serif;	
+}
+
+.axis line, .axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
+circle {
+    fill: steelblue;
+}
+.e_area {
+	fill:none;
+  stroke: url(#temperature-gradient);
+  stroke-width: 20px;
+}
